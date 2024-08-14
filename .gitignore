@@ -1,0 +1,47 @@
+# Ignore IDE specific files and folders
+.idea/
+.vscode/
+*.iml
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directories
+venv/
+env/
+.venv/
+.env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Ignore text and json and tsv
+*.txt
+*.json
+*.tsv
+*.png
+*.svg
+
+# Ignore any other file that is not .md, .toml, .lock, or .py
+!*.md
+!*.toml
+!*.lock
+!*.py

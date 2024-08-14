@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cauldron"
+version = "0.1.0"
+description = ""
+authors = ["Toan Phung <toan.phung@proteo.info>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+uniprotparser = "^1.2.0"
+pandas = "^2.2.0"
+scipy = "^1.12.0"
+scikit-learn = "^1.4.0"
+phate = "^1.0.11"
+curtainutils = "^0.1.13"
+ccore-coral = "^0.1.0"
+pyclustering = "^0.10.1.2"
+statsmodels = "^0.14.1"
+dabest = {git = "https://github.com/noatgnu/dabest-alt.git", branch = "master"}
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
